@@ -748,7 +748,13 @@ export default function HomePage() {
 
             <div className="text-center">
               <div className="w-32 h-32 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Workflow className="w-16 h-16 text-white" />
+                <Image
+                  src="/favicon-openindustrial-icon.png"
+                  alt="Open Industrial Icon"
+                  width={64}
+                  height={64}
+                  className="w-16 h-16"
+                />
               </div>
               <p className="text-xl text-slate-300 font-medium">
                 Start with insight. Grow into orchestration. All inside your own stack.
